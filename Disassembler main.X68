@@ -1,12 +1,17 @@
 *-----------------------------------------------------------
-* Title      : Main File
+* Title      : Disassembler
+* Written by : Kei Chibazakura, Bonnie Yip, Hao-Han Chao 
+* Date       : 03/11/2016
+* Description: Disassembler for DEMO
 *-----------------------------------------------------------
+       
+*****************************************
+*
+* Disassembler code starts here
+*
+*****************************************
     ORG $1000
 MAIN:
-    ; do some initial setup work
-    ; call functions defined in subroutines
-
-    ; you can define more subroutines
     INCLUDE 'io_input_subroutine.x68'
     INCLUDE 'opcode_subroutine.x68'
     INCLUDE 'ea_subroutine.x68' 
